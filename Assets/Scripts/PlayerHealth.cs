@@ -6,7 +6,7 @@ public class PlayerHealth : MonoBehaviour {
 	public int startingHealth = 100;
 
 	private bool isDamaged;
-	private int currentHealth;
+	public int currentHealth;
 
 	// Use this for initialization
 	void Start () {
