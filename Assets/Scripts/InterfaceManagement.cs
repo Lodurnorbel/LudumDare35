@@ -19,19 +19,19 @@ public class InterfaceManagement : MonoBehaviour {
         /*barDisplay = ph.currentHealth - 0.05f;*/
 
         if (Input.GetKeyDown("1")){
-            /*pm.setCriature(1);*/
+            pm.setCriature(0);
             sprites[0].GetComponent<UnityEngine.UI.Image>().color = Color.black;
             sprites[1].GetComponent<UnityEngine.UI.Image>().color = Color.grey;
             sprites[2].GetComponent<UnityEngine.UI.Image>().color = Color.green;
         }
         else if (Input.GetKeyDown("2")){
-            /*pm.setCriature(2);*/
+            pm.setCriature(1);
             sprites[0].GetComponent<UnityEngine.UI.Image>().color = Color.red;
             sprites[1].GetComponent<UnityEngine.UI.Image>().color = Color.black;
             sprites[2].GetComponent<UnityEngine.UI.Image>().color = Color.green;
         }
         else if (Input.GetKeyDown("3")){
-            /*pm.setCriature(3);*/
+            pm.setCriature(2);
             sprites[0].GetComponent<UnityEngine.UI.Image>().color = Color.red;
             sprites[1].GetComponent<UnityEngine.UI.Image>().color = Color.grey;
             sprites[2].GetComponent<UnityEngine.UI.Image>().color = Color.black;
