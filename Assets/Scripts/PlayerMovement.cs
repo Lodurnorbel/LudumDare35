@@ -19,14 +19,20 @@ public class PlayerMovement : MonoBehaviour {
 	void Update () {
 		float horizontalAxis = Input.GetAxis ("Horizontal");
 		bool isJumpingPressed = Input.GetButton ("Jump");
-		if (rigidBody.velocity.y == 0) {
-			isJumping = false;
+
+		RaycastHit2D jumpingRaycast = Physics2D.Raycast (transform.position, -Vector2.up, 50, 1 << LayerMask.NameToLayer("Floor"));
+		if (jumpingRaycast.collider != null) {
+			if (jumpingRaycast.distance < 0.1) {
+				isJumping = false;
+			} else {
+				isJumping = true;
+			}
 		}
 
 		rigidBody.velocity = new Vector2 (horizontalAxis * speed, rigidBody.velocity.y);
 		if (isJumpingPressed && !isJumping) {
 			rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpForce);
-			isJumping = true;
+			//isJumping = true;
 		}
 	}
 }
