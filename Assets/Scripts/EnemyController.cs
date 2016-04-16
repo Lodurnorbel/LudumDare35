@@ -20,6 +20,8 @@ public class EnemyController : MonoBehaviour {
 		if (mustDie) {
 			movement.speed = 1f;
 			mainCollider.enabled = false;
+			mustDie = false;
+			Destroy (gameObject, 3.0f);
 		}
 	
 	}
