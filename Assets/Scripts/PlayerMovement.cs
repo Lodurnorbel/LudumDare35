@@ -11,17 +11,20 @@ public class PlayerMovement : MonoBehaviour {
 
 	public float baseSpeed = 5.0f;
 	public float jumpForce = 5.0f;
-	public MovementParameters movementParameters;
+	public MovementParameters[] movementParameters;
+	public int initialCharacter = 0;
 
 	private bool isJumping;
 	private Rigidbody2D rigidBody;
 	private int jumpsDone;
+	private int currentCharacter;
 
 	// Use this for initialization
 	void Start () {
 		isJumping = true;
 		rigidBody = GetComponent<Rigidbody2D> ();
 		jumpsDone = 0;
+		currentCharacter = initialCharacter;
 	}
 	
 	// Update is called once per frame
@@ -41,11 +44,16 @@ public class PlayerMovement : MonoBehaviour {
 			}
 		}
 
-		rigidBody.velocity = new Vector2 (horizontalAxis * baseSpeed * movementParameters.speedMultiplier, rigidBody.velocity.y);
-		if (isJumpingPressed && jumpsDone < movementParameters.jumpsAvailable) {
+		rigidBody.velocity = new Vector2 (horizontalAxis * baseSpeed * movementParameters[currentCharacter].speedMultiplier, rigidBody.velocity.y);
+		if (isJumpingPressed && jumpsDone < movementParameters[currentCharacter].jumpsAvailable) {
 			rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpForce);
 			isJumping = true;
 			jumpsDone++;
 		}
+	}
+
+
+	public void setCriature(int criature) {
+		currentCharacter = criature;
 	}
 }
