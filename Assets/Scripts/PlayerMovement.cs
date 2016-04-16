@@ -5,6 +5,7 @@ using System.Collections;
 public class MovementParameters {
 	public float speedMultiplier;
 	public int jumpsAvailable;
+    public Sprite modelo;
 }
 
 public class PlayerMovement : MonoBehaviour {
@@ -55,5 +56,7 @@ public class PlayerMovement : MonoBehaviour {
 
 	public void setCriature(int criature) {
 		currentCharacter = criature;
+        this.GetComponent<SpriteRenderer>().sprite = movementParameters[currentCharacter].modelo;
 	}
+
 }
