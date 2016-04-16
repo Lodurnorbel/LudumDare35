@@ -4,8 +4,6 @@ using System.Collections;
 public class PlayerHealth : MonoBehaviour {
 
 	public int startingHealth = 100;
-
-	private bool isDamaged;
 	public int currentHealth;
 
 	// Use this for initialization
@@ -15,23 +13,11 @@ public class PlayerHealth : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (isDamaged) {
-			ChangeHealthBy (-10);
-			isDamaged = false;
-		}
 	}
 
-	void ChangeHealthBy(int quantity) {
+	public void ChangeHealthBy(int quantity) {
 		currentHealth += quantity;
 		Debug.Log ("Current health: " + currentHealth);
 	}
-
-
-	void OnCollisionEnter2D(Collision2D coll) {
-		if (coll.gameObject.CompareTag ("Enemy")) {
-			isDamaged = true;
-		}
-	}
-
 
 }
