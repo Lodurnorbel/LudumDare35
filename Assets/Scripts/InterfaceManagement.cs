@@ -16,7 +16,7 @@ public class InterfaceManagement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        /*barDisplay = ph.currentHealth - 0.05f;*/
+        barDisplay = Time.time * 0.05f;
 
         if (Input.GetKeyDown("1")){
             pm.setCriature(0);
