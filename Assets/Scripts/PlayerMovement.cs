@@ -19,9 +19,7 @@ public class PlayerMovement : MonoBehaviour {
 	void Update () {
 		float horizontalAxis = Input.GetAxis ("Horizontal");
 		bool isJumpingPressed = Input.GetButton ("Jump");
-		Debug.Log ("Y Velocity = " + rigidBody.velocity.y);
 		if (rigidBody.velocity.y == 0) {
-			Debug.Log ("SETTING TO NOT JUMPING");
 			isJumping = false;
 		}
 
