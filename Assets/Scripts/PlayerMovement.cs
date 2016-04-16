@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour {
 
 		RaycastHit2D jumpingRaycast = Physics2D.Raycast (transform.position, -Vector2.up, 50, 1 << LayerMask.NameToLayer("Floor"));
 		if (jumpingRaycast.collider != null) {
-			if (jumpingRaycast.distance < 0.1) {
+			if (jumpingRaycast.distance < 50) {
 				isJumping = false;
 				jumpsDone = 0;
 			} else {
