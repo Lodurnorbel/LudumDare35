@@ -23,6 +23,9 @@ public class PlayerHealth : MonoBehaviour {
 		if (currentHealth > 100) {
 			currentHealth = 100;
 		}
+		if (currentHealth <= 0) {
+			GetComponent<PlayerController> ().Die ();
+		}
 		Debug.Log ("Current health: " + currentHealth);
 	}
 }

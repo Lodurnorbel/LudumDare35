@@ -25,4 +25,12 @@ public class PlayerController : MonoBehaviour {
 		currentCharacter = character;
 		GetComponent<PlayerMovement> ().setCriature (character);
 	}
+
+	public void Die() {
+		foreach (Collider2D coll in GetComponentsInChildren<Collider2D>()) {
+			coll.enabled = false;
+		}
+		GetComponent<PlayerMovement> ().enabled = false;
+		Destroy (this, 3.0f);
+	}
 }
