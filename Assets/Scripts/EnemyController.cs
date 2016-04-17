@@ -21,7 +21,6 @@ public class EnemyController : MonoBehaviour {
 	void Update () {
 		if (mustDie) {
 			movement.speed = 1f;
-			mainCollider.enabled = false;
 			mustDie = false;
 			Destroy (gameObject, 3.0f);
             im.GetComponent<InterfaceManagement>().drink();
@@ -31,5 +30,10 @@ public class EnemyController : MonoBehaviour {
 
 	public void Die() {
 		mustDie = true;
+		//mainCollider.enabled = false;
+		foreach (Collider2D coll in GetComponentsInChildren<Collider2D>()) {
+			coll.enabled = false;
+		}
+		GameObject.FindGameObjectWithTag ("ScoreSystem").GetComponent<ScoreSystem> ().changeScoreBy (100);
 	}
 }
