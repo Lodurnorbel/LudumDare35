@@ -56,7 +56,7 @@ public class PlayerMovement : MonoBehaviour {
 
 	public void setCriature(int criature) {
 		currentCharacter = criature;
-        this.GetComponent<SpriteRenderer>().sprite = movementParameters[currentCharacter].modelo;
+		this.GetComponentInChildren<SpriteRenderer>().sprite = movementParameters[currentCharacter].modelo;
 	}
 
 }
