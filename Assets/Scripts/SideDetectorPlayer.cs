@@ -14,9 +14,12 @@ public class SideDetectorPlayer : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetButtonDown ("Fire1")) {
+			inRange.RemoveAll (item => item == null);
 			foreach (GameObject enemy in inRange) {
-				Debug.Log ("Enemy: " + enemy.GetInstanceID());
-				enemy.GetComponent<EnemyHealth> ().ChangeHealthBy(-50);
+				if (enemy != null) {
+					Debug.Log ("Enemy: " + enemy.GetInstanceID ());
+					enemy.GetComponent<EnemyHealth> ().ChangeHealthBy (-50);
+				}
 			}
 		}
 	}
@@ -31,5 +34,11 @@ public class SideDetectorPlayer : MonoBehaviour {
 		if (coll.CompareTag ("Enemy")) {
 			inRange.Remove (coll.gameObject);
 		}
+	}
+
+	public void flip() {
+		Vector2 newOffset = GetComponent<BoxCollider2D> ().offset;
+		newOffset.x *= -1;
+		GetComponent<BoxCollider2D> ().offset = newOffset;
 	}
 }

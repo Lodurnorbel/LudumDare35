@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour {
 		rigidBody = GetComponent<Rigidbody2D> ();
 		jumpsDone = 0;
 		currentCharacter = initialCharacter;
-        sprite = GetComponent<SpriteRenderer>();
+        sprite = GetComponentInChildren<SpriteRenderer>();
         viewRight = true;
 	}
 	
@@ -38,12 +38,10 @@ public class PlayerMovement : MonoBehaviour {
 		bool isJumpingPressed = Input.GetButtonDown ("Jump");
 
         if (Input.GetKeyDown(KeyCode.D) && !viewRight) {
-            viewRight = true;
-            sprite.flipX = false;
+			flip ();
         }
         if(Input.GetKeyDown(KeyCode.A) && viewRight){
-            viewRight = false;
-            sprite.flipX = true;
+			flip ();
         }
 
 		RaycastHit2D jumpingRaycast = Physics2D.Raycast (transform.position, -Vector2.up, 50, 1 << LayerMask.NameToLayer("Floor"));
@@ -66,6 +64,11 @@ public class PlayerMovement : MonoBehaviour {
 		}
 	}
 
+	void flip() {
+		viewRight = !viewRight;
+		sprite.flipX = !sprite.flipX;
+		GetComponentInChildren<SideDetectorPlayer> ().flip();
+	}
 
 	public void setCriature(int criature) {
 		currentCharacter = criature;
