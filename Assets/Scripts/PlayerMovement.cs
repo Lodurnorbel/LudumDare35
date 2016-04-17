@@ -5,6 +5,7 @@ using System.Collections;
 public class MovementParameters {
 	public float speedMultiplier;
 	public int jumpsAvailable;
+    public Sprite modelo;
 }
 
 public class PlayerMovement : MonoBehaviour {
@@ -34,7 +35,7 @@ public class PlayerMovement : MonoBehaviour {
 
 		RaycastHit2D jumpingRaycast = Physics2D.Raycast (transform.position, -Vector2.up, 50, 1 << LayerMask.NameToLayer("Floor"));
 		if (jumpingRaycast.collider != null) {
-			if (jumpingRaycast.distance < 0.1) {
+			if (jumpingRaycast.distance < 50) {
 				isJumping = false;
 				jumpsDone = 0;
 			} else {
@@ -55,5 +56,7 @@ public class PlayerMovement : MonoBehaviour {
 
 	public void setCriature(int criature) {
 		currentCharacter = criature;
+        this.GetComponent<SpriteRenderer>().sprite = movementParameters[currentCharacter].modelo;
 	}
+
 }

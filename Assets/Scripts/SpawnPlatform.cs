@@ -7,6 +7,7 @@ public class SpawnPlatform : MonoBehaviour {
     public GameObject next;
     public float tiempoMin = 1f;
     public float tiempoMax = 2f;
+    public GameObject coll;
 
 	// Use this for initialization
 	void Start () {
@@ -28,7 +29,8 @@ public class SpawnPlatform : MonoBehaviour {
     {
         SpawnPlatform a = (SpawnPlatform)next.GetComponent(typeof(SpawnPlatform));
         a.Generar();
-        Debug.Log("Nuevo Terreno");
+        BoxCollider2D bc = (BoxCollider2D) coll.GetComponent(typeof(BoxCollider2D));
+        bc.enabled = false;
     }
 
 

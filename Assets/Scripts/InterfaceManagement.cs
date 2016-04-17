@@ -12,11 +12,12 @@ public class InterfaceManagement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         pm = player.GetComponent<PlayerMovement>();
+        ph = player.GetComponent<PlayerHealth>();
     }
 	
 	// Update is called once per frame
 	void Update () {
-        barDisplay = Time.time * 0.05f;
+        barDisplay = ph.currentHealth * 0.01f/*Time.time * 0.05f*/;
 
         if (Input.GetKeyDown("1")){
             pm.setCriature(0);
@@ -41,7 +42,7 @@ public class InterfaceManagement : MonoBehaviour {
 
     public float barDisplay; //current progress
     public Vector2 pos = new Vector2(20, 40);
-    public Vector2 size = new Vector2(60, 20);
+    public Vector2 size = new Vector2(300, 20);
     public Texture2D emptyTex;
     public Texture2D fullTex;
 
