@@ -16,9 +16,16 @@ public class PlayerHealth : MonoBehaviour {
 	}
 
 	public void ChangeHealthBy(int quantity) {
-        if(currentHealth+quantity <= 100) {
-            currentHealth += quantity;
-		    Debug.Log ("Current health: " + currentHealth);
-        }
+		if (quantity < 0 && GetComponent<PlayerController> ().getCharacter () == 0) {
+			quantity /= 2; // If zombie, reduce damage by half.
+		}
+        currentHealth += quantity;
+		if (currentHealth > 100) {
+			currentHealth = 100;
+		}
+		if (currentHealth <= 0) {
+			GetComponent<PlayerController> ().Die ();
+		}
+		Debug.Log ("Current health: " + currentHealth);
 	}
 }

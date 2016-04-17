@@ -5,10 +5,12 @@ using System.Collections.Generic;
 public class SideDetectorPlayer : MonoBehaviour {
 
 	private List<GameObject> inRange;
+	private PlayerController playerController;
 
 	// Use this for initialization
 	void Start () {
 		inRange = new List<GameObject> ();
+		playerController = GetComponentInParent<PlayerController> ();
 	}
 	
 	// Update is called once per frame
@@ -18,7 +20,8 @@ public class SideDetectorPlayer : MonoBehaviour {
 			foreach (GameObject enemy in inRange) {
 				if (enemy != null) {
 					Debug.Log ("Enemy: " + enemy.GetInstanceID ());
-					enemy.GetComponent<EnemyHealth> ().ChangeHealthBy (-50);
+					int damage = playerController.getCharacter() == 1 ? -100 : -50; // -100 if werewolf, -50 otherwise
+					enemy.GetComponent<EnemyHealth> ().ChangeHealthBy (damage);
 				}
 			}
 		}

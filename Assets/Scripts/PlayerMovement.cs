@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour {
 	private bool isJumping;
 	private Rigidbody2D rigidBody;
 	private int jumpsDone;
-	private int currentCharacter;
+	private PlayerController playerController;
     private SpriteRenderer sprite;
     private bool viewRight;
 
@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour {
 		isJumping = true;
 		rigidBody = GetComponent<Rigidbody2D> ();
 		jumpsDone = 0;
-		currentCharacter = initialCharacter;
+		playerController = GetComponent<PlayerController> ();
         sprite = GetComponentInChildren<SpriteRenderer>();
         viewRight = true;
 	}
@@ -56,8 +56,8 @@ public class PlayerMovement : MonoBehaviour {
 			}
 		}
 
-		rigidBody.velocity = new Vector2 (horizontalAxis * baseSpeed * movementParameters[currentCharacter].speedMultiplier, rigidBody.velocity.y);
-		if (isJumpingPressed && jumpsDone < movementParameters[currentCharacter].jumpsAvailable) {
+		rigidBody.velocity = new Vector2 (horizontalAxis * baseSpeed * movementParameters[playerController.getCharacter()].speedMultiplier, rigidBody.velocity.y);
+		if (isJumpingPressed && jumpsDone < movementParameters[playerController.getCharacter()].jumpsAvailable) {
 			rigidBody.velocity = new Vector2(rigidBody.velocity.x, jumpForce);
 			isJumping = true;
 			jumpsDone++;
@@ -71,8 +71,7 @@ public class PlayerMovement : MonoBehaviour {
 	}
 
 	public void setCriature(int criature) {
-		currentCharacter = criature;
-		this.GetComponentInChildren<SpriteRenderer>().sprite = movementParameters[currentCharacter].modelo;
+		this.GetComponentInChildren<SpriteRenderer>().sprite = movementParameters[playerController.getCharacter()].modelo;
 	}
 
 }
