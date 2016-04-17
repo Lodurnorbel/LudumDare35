@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 3208c68cb6a133a499d770abd1a2f418
+timeCreated: 1460930561
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Personajes_v4_movimiento_vampiro_0
+    21300002: Personajes_v4_movimiento_vampiro_1
+    21300004: Personajes_v4_movimiento_vampiro_2
+    21300006: Personajes_v4_movimiento_vampiro_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Personajes_v4_movimiento_vampiro_0
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 116
+        width: 521
+        height: 1044
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 93.05786, y: 402.00732}
+        - {x: 67.05786, y: 327.00732}
+        - {x: 0.057861328, y: 86.00731}
+        - {x: 0.057861328, y: 37.00731}
+        - {x: 26.057861, y: 31.007309}
+        - {x: 65.05786, y: 0.00730896}
+        - {x: 98.05786, y: 0.00730896}
+        - {x: 101.05786, y: 7.007309}
+        - {x: 143.05786, y: 0.00730896}
+        - {x: 168.05786, y: 0.00730896}
+        - {x: 200.05786, y: 4.007309}
+        - {x: 201.05786, y: 6.007309}
+        - {x: 201.05786, y: 402.00732}
+    - name: Personajes_v4_movimiento_vampiro_1
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 116
+        width: 441
+        height: 1044
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.910645, y: 360.00732}
+        - {x: -0.08935547, y: 96.00731}
+        - {x: -0.08935547, y: 29.007309}
+        - {x: 11.910645, y: 24.007309}
+        - {x: 31.910645, y: 28.007309}
+        - {x: 56.910645, y: 103.00731}
+        - {x: 59.910645, y: 147.00731}
+        - {x: 54.910645, y: 51.00731}
+        - {x: 77.910645, y: 0.00730896}
+        - {x: 147.91064, y: 0.00730896}
+        - {x: 169.91064, y: 6.007309}
+        - {x: 169.91064, y: 402.00732}
+        - {x: 54.910645, y: 402.00732}
+        - {x: 50.910645, y: 396.00732}
+    - name: Personajes_v4_movimiento_vampiro_2
+      rect:
+        serializedVersion: 2
+        x: 3329
+        y: 113
+        width: 524
+        height: 1047
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 135.03015, y: 60.93127}
+        - {x: 137.03015, y: 66.931274}
+        - {x: 139.03015, y: 74.931274}
+        - {x: 140.03015, y: 81.931274}
+        - {x: 141.03015, y: 82.931274}
+        - {x: 138.03015, y: 69.931274}
+        - {x: 133.03015, y: 47.93127}
+        - {x: 126.03015, y: 35.93127}
+        - {x: 129.03015, y: 21.93127}
+        - {x: 174.03015, y: -0.0687294}
+        - {x: 187.03015, y: -0.0687294}
+        - {x: 202.03015, y: 148.93127}
+        - {x: 202.03015, y: 366.93127}
+        - {x: 163.03015, y: 402.93127}
+        - {x: 63.03015, y: 402.93127}
+        - {x: 0.030151367, y: 212.93127}
+        - {x: 0.030151367, y: -0.0687294}
+        - {x: 145.03015, y: -0.0687294}
+        - {x: 136.03015, y: 14.931271}
+        - {x: 121.03015, y: 27.93127}
+        - {x: 129.03015, y: 45.93127}
+    - name: Personajes_v4_movimiento_vampiro_3
+      rect:
+        serializedVersion: 2
+        x: 4123
+        y: 111
+        width: 503
+        height: 1049
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.912964, y: 404.04724}
+        - {x: -0.08703613, y: 225.04724}
+        - {x: -0.08703613, y: 24.047241}
+        - {x: 31.912964, y: 29.047241}
+        - {x: 58.912964, y: 117.04724}
+        - {x: 59.912964, y: 140.04724}
+        - {x: 73.912964, y: 153.04724}
+        - {x: 42.912964, y: 25.047241}
+        - {x: 11.912964, y: 0.04724121}
+        - {x: 171.91296, y: 0.04724121}
+        - {x: 193.91296, y: 28.047241}
+        - {x: 193.91296, y: 298.04724}
+        - {x: 167.91296, y: 404.04724}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class InterfaceManagement : MonoBehaviour {
 
@@ -23,13 +24,15 @@ public class InterfaceManagement : MonoBehaviour {
         pm = player.GetComponent<PlayerMovement>();
         ph = player.GetComponent<PlayerHealth>();
 		playerController = player.GetComponent<PlayerController> ();
-        blood = 90;
+        blood = 0;
     }
 	
 	// Update is called once per frame
 	void Update () {
         barDisplay = ph.currentHealth * 0.01f;
         barDisplay2 = blood * 0.01f;
+        GameObject.FindGameObjectWithTag("Score").GetComponent<Text>().text = "SCORE: " + GameObject.FindGameObjectWithTag("ScoreSystem").GetComponent<ScoreSystem>().getScore();
+
 
         if (Input.GetKeyDown("1")){
 			playerController.changeCharacter (0);
