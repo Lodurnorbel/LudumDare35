@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: 97da87500d0a22544b04d8d967ce00fd
+timeCreated: 1460929895
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Personajes_v4_movimiento_aldeanA_0
+    21300002: Personajes_v4_movimiento_aldeanA_1
+    21300004: Personajes_v4_movimiento_aldeanA_2
+    21300006: Personajes_v4_movimiento_aldeanA_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Personajes_v4_movimiento_aldeanA_0
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 189
+        width: 578
+        height: 1499
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.013031, y: 360.90652}
+        - {x: -31.986969, y: 415.90652}
+        - {x: -84.98697, y: 415.90652}
+        - {x: -68.98697, y: 563.9065}
+        - {x: -74.98697, y: 562.9065}
+        - {x: -77.98697, y: 561.9065}
+        - {x: -79.98697, y: 576.9065}
+        - {x: -160.98697, y: 576.9065}
+        - {x: -176.98697, y: 455.90652}
+        - {x: -207.98697, y: 284.90652}
+        - {x: -221.98697, y: 123.906525}
+        - {x: -221.98697, y: 95.906525}
+        - {x: -216.98697, y: 92.906525}
+        - {x: -205.98697, y: 103.906525}
+        - {x: -167.98697, y: 237.90652}
+        - {x: -117.98697, y: 150.90652}
+        - {x: -161.98697, y: 23.906525}
+        - {x: -145.98697, y: 2.9065247}
+        - {x: -116.98697, y: -0.09347534}
+        - {x: -10.986969, y: -0.09347534}
+        - {x: -9.986969, y: 14.906525}
+        - {x: -7.986969, y: 50.906525}
+        - {x: 1.013031, y: 165.90652}
+    - name: Personajes_v4_movimiento_aldeanA_1
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 189
+        width: 740
+        height: 1398
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.08435, y: 423.0133}
+        - {x: -132.08435, y: 439.0133}
+        - {x: -154.08435, y: 399.0133}
+        - {x: -150.08435, y: 465.0133}
+        - {x: -205.08435, y: 538.0133}
+        - {x: -237.08435, y: 538.0133}
+        - {x: -248.08435, y: 530.0133}
+        - {x: -246.08435, y: 511.0133}
+        - {x: -260.08435, y: 528.0133}
+        - {x: -268.08435, y: 530.0133}
+        - {x: -284.08435, y: 526.0133}
+        - {x: -284.08435, y: 450.0133}
+        - {x: -254.08435, y: 391.0133}
+        - {x: -169.08435, y: 51.013306}
+        - {x: -155.08435, y: 33.013306}
+        - {x: -142.08435, y: 122.013306}
+        - {x: -154.08435, y: 14.013306}
+        - {x: -98.08435, y: 0.013305664}
+        - {x: -30.08435, y: 0.013305664}
+        - {x: -7.0843506, y: 5.0133057}
+        - {x: -7.0843506, y: 157.0133}
+        - {x: 0.9156494, y: 227.0133}
+        - {x: 0.9156494, y: 365.0133}
+    - name: Personajes_v4_movimiento_aldeanA_2
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 189
+        width: 1068
+        height: 1062
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.7739258, y: 368.99728}
+        - {x: -30.226074, y: 408.99728}
+        - {x: -94.226074, y: 408.99728}
+        - {x: -140.22607, y: 356.99728}
+        - {x: -118.226074, y: 300.99728}
+        - {x: -96.226074, y: 272.99728}
+        - {x: -188.22607, y: 253.99728}
+        - {x: -219.22607, y: 241.99728}
+        - {x: -266.22607, y: 315.99728}
+        - {x: -261.22607, y: 335.99728}
+        - {x: -349.22607, y: 408.99728}
+        - {x: -401.22607, y: 408.99728}
+        - {x: -410.22607, y: 368.99728}
+        - {x: -410.22607, y: 325.99728}
+        - {x: -325.22607, y: 269.99728}
+        - {x: -271.22607, y: 263.99728}
+        - {x: -193.22607, y: 156.99728}
+        - {x: -129.22607, y: 57.997284}
+        - {x: -155.22607, y: 11.997284}
+        - {x: -102.226074, y: -0.0027160645}
+        - {x: -21.226074, y: -0.0027160645}
+        - {x: -8.226074, y: 2.997284}
+        - {x: -6.226074, y: 130.99728}
+        - {x: -3.2260742, y: 279.99728}
+        - {x: 0.7739258, y: 302.99728}
+    - name: Personajes_v4_movimiento_aldeanA_3
+      rect:
+        serializedVersion: 2
+        x: 3439
+        y: 189
+        width: 1174
+        height: 1062
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.763428, y: 408.99728}
+        - {x: -270.76343, y: 408.99728}
+        - {x: -433.76343, y: 314.99728}
+        - {x: -420.76343, y: 292.99728}
+        - {x: -406.76343, y: 284.99728}
+        - {x: -427.76343, y: 280.99728}
+        - {x: -429.76343, y: 277.99728}
+        - {x: -423.76343, y: 272.99728}
+        - {x: -433.76343, y: 264.99728}
+        - {x: -437.76343, y: 261.99728}
+        - {x: -416.76343, y: 247.99728}
+        - {x: -441.76343, y: 250.99728}
+        - {x: -442.76343, y: 246.99728}
+        - {x: -450.76343, y: 234.99728}
+        - {x: -450.76343, y: 204.99728}
+        - {x: -326.76343, y: 167.99728}
+        - {x: -181.76343, y: 8.997284}
+        - {x: -124.76343, y: -0.0027160645}
+        - {x: -47.763428, y: -0.0027160645}
+        - {x: -42.763428, y: 0.99728394}
+        - {x: 1.2365723, y: 25.997284}
+        - {x: 1.2365723, y: 249.99728}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
