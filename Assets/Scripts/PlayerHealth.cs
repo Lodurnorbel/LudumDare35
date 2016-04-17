@@ -16,8 +16,10 @@ public class PlayerHealth : MonoBehaviour {
 	}
 
 	public void ChangeHealthBy(int quantity) {
-		currentHealth += quantity;
-		Debug.Log ("Current health: " + currentHealth);
-	}
+        if(currentHealth+quantity <= 100){
+            currentHealth += quantity;
+		    Debug.Log ("Current health: " + currentHealth);
+        }
 
+	}
 }

@@ -7,12 +7,14 @@ public class EnemyController : MonoBehaviour {
 	private bool mustDie;
 	private Rigidbody2D rb;
 	private Collider2D mainCollider;
+    public GameObject im;
 
 	// Use this for initialization
 	void Start () {
 		movement = GetComponent<EnemyMovementBasic> ();
 		rb = GetComponent<Rigidbody2D> ();
 		mainCollider = GetComponent<Collider2D> ();
+
 	}
 	
 	// Update is called once per frame
@@ -22,6 +24,7 @@ public class EnemyController : MonoBehaviour {
 			mainCollider.enabled = false;
 			mustDie = false;
 			Destroy (gameObject, 3.0f);
+            im.GetComponent<InterfaceManagement>().drink();
 		}
 	
 	}
