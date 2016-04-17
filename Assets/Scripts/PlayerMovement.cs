@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour {
 	private Rigidbody2D rigidBody;
 	private int jumpsDone;
 	private int currentCharacter;
+    private SpriteRenderer sprite;
+    private bool viewRight;
 
 	// Use this for initialization
 	void Start () {
@@ -26,12 +28,23 @@ public class PlayerMovement : MonoBehaviour {
 		rigidBody = GetComponent<Rigidbody2D> ();
 		jumpsDone = 0;
 		currentCharacter = initialCharacter;
+        sprite = GetComponent<SpriteRenderer>();
+        viewRight = true;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		float horizontalAxis = Input.GetAxis ("Horizontal");
 		bool isJumpingPressed = Input.GetButtonDown ("Jump");
+
+        if (Input.GetKeyDown(KeyCode.D) && !viewRight) {
+            viewRight = true;
+            sprite.flipX = false;
+        }
+        if(Input.GetKeyDown(KeyCode.A) && viewRight){
+            viewRight = false;
+            sprite.flipX = true;
+        }
 
 		RaycastHit2D jumpingRaycast = Physics2D.Raycast (transform.position, -Vector2.up, 50, 1 << LayerMask.NameToLayer("Floor"));
 		if (jumpingRaycast.collider != null) {
