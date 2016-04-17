@@ -17,11 +17,17 @@ public class EnemyHealth : MonoBehaviour {
 	}
 
 	public void ChangeHealthBy(int quantity) {
-		if(currentHealth+quantity <= 100){
+		
+		if(currentHealth > 0){
 			currentHealth += quantity;
+			Debug.Log ("Enemy #" + GetInstanceID () + " changed health by " + quantity);
+			if (currentHealth <= 0) {
+				gameObject.GetComponent<EnemyController> ().Die ();
+			}
+			if (currentHealth > 100) {
+				currentHealth = 100;
+			}
 		}
-		if (currentHealth <= 0) {
-			gameObject.GetComponent<EnemyController> ().Die ();
-		}
+
 	}
 }
