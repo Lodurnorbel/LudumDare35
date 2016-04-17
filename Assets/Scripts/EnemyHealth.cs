@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerHealth : MonoBehaviour {
+public class EnemyHealth : MonoBehaviour {
 
 	public int startingHealth = 100;
 	public int currentHealth;
@@ -13,12 +13,15 @@ public class PlayerHealth : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+	
 	}
 
 	public void ChangeHealthBy(int quantity) {
-        if(currentHealth+quantity <= 100) {
-            currentHealth += quantity;
-		    Debug.Log ("Current health: " + currentHealth);
-        }
+		if(currentHealth+quantity <= 100){
+			currentHealth += quantity;
+		}
+		if (currentHealth <= 0) {
+			gameObject.GetComponent<EnemyController> ().Die ();
+		}
 	}
 }
