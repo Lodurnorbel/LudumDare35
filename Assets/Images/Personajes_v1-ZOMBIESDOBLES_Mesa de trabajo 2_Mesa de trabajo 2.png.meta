@@ -1,0 +1,228 @@
+fileFormatVersion: 2
+guid: f9ce6933568a7c94eb5f050c82f2f259
+timeCreated: 1460909362
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Personajes_v1-ZOMBIESDOBLES_Mesa de trabajo 2_Mesa de trabajo 2_0
+    21300002: Personajes_v1-ZOMBIESDOBLES_Mesa de trabajo 2_Mesa de trabajo 2_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Personajes_v1-ZOMBIESDOBLES_Mesa de trabajo 2_Mesa de trabajo 2_0
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 173
+        width: 434
+        height: 868
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -105, y: -376}
+        - {x: -79, y: -310}
+        - {x: -46, y: -301}
+        - {x: -51, y: -227}
+        - {x: 82, y: -321}
+        - {x: 128, y: -340}
+        - {x: 150, y: -347}
+        - {x: 201, y: -302}
+        - {x: 217, y: -273}
+        - {x: 217, y: -248}
+        - {x: 188, y: -220}
+        - {x: 157, y: -240}
+        - {x: 134, y: -301}
+        - {x: 127, y: -271}
+        - {x: 124, y: -263}
+        - {x: 57, y: -193}
+        - {x: -43, y: -109}
+        - {x: -26, y: -99}
+        - {x: -15, y: -86}
+        - {x: 19, y: -64}
+        - {x: 25, y: 10}
+        - {x: 3, y: 47}
+        - {x: 157, y: 62}
+        - {x: 163, y: 57}
+        - {x: 180, y: 45}
+        - {x: 194, y: 44}
+        - {x: 200, y: 60}
+        - {x: 181, y: 90}
+        - {x: 216, y: 119}
+        - {x: 216, y: 133}
+        - {x: 203, y: 148}
+        - {x: 186, y: 151}
+        - {x: 149, y: 116}
+        - {x: 128, y: 84}
+        - {x: -19, y: 86}
+        - {x: 58, y: 114}
+        - {x: 66, y: 136}
+        - {x: 47, y: 169}
+        - {x: 92, y: 165}
+        - {x: 93, y: 173}
+        - {x: 94, y: 176}
+        - {x: 94, y: 181}
+        - {x: 95, y: 179}
+        - {x: 93, y: 173}
+        - {x: 98, y: 166}
+        - {x: 116, y: 159}
+        - {x: 168, y: 266}
+        - {x: 163, y: 336}
+        - {x: 66, y: 401}
+        - {x: 12, y: 434}
+        - {x: -89, y: 434}
+        - {x: -130, y: 419}
+        - {x: -189, y: 350}
+        - {x: -204, y: 363}
+        - {x: -217, y: 346}
+        - {x: -217, y: 243}
+        - {x: -213, y: 220}
+        - {x: -201, y: 184}
+        - {x: -148, y: 125}
+        - {x: -131, y: 104}
+        - {x: -176, y: 66}
+        - {x: -190, y: -14}
+        - {x: -170, y: -76}
+        - {x: -155, y: -141}
+        - {x: -151, y: -226}
+        - {x: -133, y: -300}
+        - {x: -128, y: -311}
+        - {x: -141, y: -386}
+        - {x: -139, y: -404}
+        - {x: -105, y: -434}
+        - {x: -31, y: -434}
+        - {x: -15, y: -413}
+        - {x: -17, y: -384}
+        - {x: -35, y: -368}
+    - name: Personajes_v1-ZOMBIESDOBLES_Mesa de trabajo 2_Mesa de trabajo 2_1
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 173
+        width: 442
+        height: 868
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71, y: -369}
+        - {x: -44, y: -284}
+        - {x: 41, y: -264}
+        - {x: 81, y: -273}
+        - {x: 152, y: -304}
+        - {x: 166, y: -306}
+        - {x: 190, y: -284}
+        - {x: 221, y: -235}
+        - {x: 221, y: -207}
+        - {x: 211, y: -189}
+        - {x: 179, y: -180}
+        - {x: 153, y: -204}
+        - {x: 147, y: -265}
+        - {x: 60, y: -217}
+        - {x: 76, y: -208}
+        - {x: 67, y: -185}
+        - {x: -33, y: -126}
+        - {x: -19, y: -93}
+        - {x: 15, y: -65}
+        - {x: 16, y: 19}
+        - {x: 3, y: 51}
+        - {x: 104, y: 58}
+        - {x: 154, y: 54}
+        - {x: 187, y: 39}
+        - {x: 191, y: 49}
+        - {x: 192, y: 52}
+        - {x: 192, y: 58}
+        - {x: 191, y: 64}
+        - {x: 215, y: 120}
+        - {x: 205, y: 151}
+        - {x: 160, y: 136}
+        - {x: 154, y: 125}
+        - {x: 65, y: 83}
+        - {x: -23, y: 86}
+        - {x: 54, y: 113}
+        - {x: 61, y: 134}
+        - {x: 36, y: 155}
+        - {x: 46, y: 170}
+        - {x: 105, y: 148}
+        - {x: 144, y: 221}
+        - {x: 158, y: 280}
+        - {x: 160, y: 315}
+        - {x: 135, y: 354}
+        - {x: 63, y: 396}
+        - {x: 5, y: 434}
+        - {x: -70, y: 434}
+        - {x: -108, y: 414}
+        - {x: -138, y: 421}
+        - {x: -193, y: 348}
+        - {x: -210, y: 362}
+        - {x: -221, y: 341}
+        - {x: -221, y: 265}
+        - {x: -217, y: 218}
+        - {x: -197, y: 176}
+        - {x: -138, y: 100}
+        - {x: -157, y: 86}
+        - {x: -187, y: 38}
+        - {x: -190, y: -6}
+        - {x: -180, y: -56}
+        - {x: -158, y: -113}
+        - {x: -170, y: -137}
+        - {x: -162, y: -169}
+        - {x: -137, y: -189}
+        - {x: -110, y: -197}
+        - {x: -122, y: -275}
+        - {x: -153, y: -353}
+        - {x: -146, y: -404}
+        - {x: -103, y: -429}
+        - {x: -78, y: -434}
+        - {x: -32, y: -434}
+        - {x: -17, y: -406}
+        - {x: -19, y: -382}
+        - {x: -46, y: -370}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
