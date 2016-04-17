@@ -7,7 +7,6 @@ public class EnemyController : MonoBehaviour {
 	private bool mustDie;
 	private Rigidbody2D rb;
 	private Collider2D mainCollider;
-    public GameObject im;
 
 	// Use this for initialization
 	void Start () {
@@ -23,8 +22,9 @@ public class EnemyController : MonoBehaviour {
 			movement.speed = 1f;
 			mustDie = false;
 			Destroy (gameObject, 3.0f);
-            im.GetComponent<InterfaceManagement>().drink();
-		}
+            GameObject.FindGameObjectWithTag("Canvas").GetComponent<InterfaceManagement>().drink();
+
+        }
 	
 	}
 
