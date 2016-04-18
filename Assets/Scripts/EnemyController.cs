@@ -30,7 +30,7 @@ public class EnemyController : MonoBehaviour {
 
 	public void Die() {
 		mustDie = true;
-		//mainCollider.enabled = false;
+		GetComponent<AudioSource> ().Play ();
 		foreach (Collider2D coll in GetComponentsInChildren<Collider2D>()) {
 			coll.enabled = false;
 		}
