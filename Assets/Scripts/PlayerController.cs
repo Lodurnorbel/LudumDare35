@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour {
 
 	public int initialCharacter = 0;
 	public AudioClip[] spawnAudios;
+    public Animation[] animations;
 
 	private int currentCharacter;
 	private AudioSource audioSource;

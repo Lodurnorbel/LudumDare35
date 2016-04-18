@@ -25,6 +25,9 @@ public class InterfaceManagement : MonoBehaviour {
         ph = player.GetComponent<PlayerHealth>();
 		playerController = player.GetComponent<PlayerController> ();
         blood = 0;
+        sprites[0].GetComponent<UnityEngine.UI.Image>().color = Color.white;
+        sprites[1].GetComponent<UnityEngine.UI.Image>().color = Color.black;
+        sprites[2].GetComponent<UnityEngine.UI.Image>().color = Color.black;
     }
 	
 	// Update is called once per frame
@@ -36,21 +39,21 @@ public class InterfaceManagement : MonoBehaviour {
 
         if (Input.GetKeyDown("1")){
 			playerController.changeCharacter (0);
-            sprites[0].GetComponent<UnityEngine.UI.Image>().color = Color.black;
-            sprites[1].GetComponent<UnityEngine.UI.Image>().color = Color.grey;
-            sprites[2].GetComponent<UnityEngine.UI.Image>().color = Color.green;
+            sprites[0].GetComponent<UnityEngine.UI.Image>().color = Color.white;
+            sprites[1].GetComponent<UnityEngine.UI.Image>().color = Color.black;
+            sprites[2].GetComponent<UnityEngine.UI.Image>().color = Color.black;
         }
         else if (Input.GetKeyDown("2")){
 			playerController.changeCharacter (1);
-            sprites[0].GetComponent<UnityEngine.UI.Image>().color = Color.red;
-            sprites[1].GetComponent<UnityEngine.UI.Image>().color = Color.black;
-            sprites[2].GetComponent<UnityEngine.UI.Image>().color = Color.green;
+            sprites[0].GetComponent<UnityEngine.UI.Image>().color = Color.black;
+            sprites[1].GetComponent<UnityEngine.UI.Image>().color = Color.white;
+            sprites[2].GetComponent<UnityEngine.UI.Image>().color = Color.black;
         }
         else if (Input.GetKeyDown("3")){
 			playerController.changeCharacter (2);
-            sprites[0].GetComponent<UnityEngine.UI.Image>().color = Color.red;
-            sprites[1].GetComponent<UnityEngine.UI.Image>().color = Color.grey;
-            sprites[2].GetComponent<UnityEngine.UI.Image>().color = Color.black;
+            sprites[0].GetComponent<UnityEngine.UI.Image>().color = Color.black;
+            sprites[1].GetComponent<UnityEngine.UI.Image>().color = Color.black;
+            sprites[2].GetComponent<UnityEngine.UI.Image>().color = Color.white;
         }
 
         if(blood == 100 & Input.GetKeyDown(KeyCode.K)){

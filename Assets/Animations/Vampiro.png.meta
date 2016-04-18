@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 25140022580fc394898803ca194b6cc0
+timeCreated: 1461007441
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Vampiro_0
+    21300002: Vampiro_1
+    21300004: Vampiro_2
+    21300006: Vampiro_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Vampiro_0
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 116
+        width: 521
+        height: 1044
+      alignment: 9
+      pivot: {x: 0.6582781, y: 0.49281937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.648132, y: 204.42564}
+        - {x: -64.64813, y: 129.42564}
+        - {x: -131.64813, y: -111.574356}
+        - {x: -131.64813, y: -160.57436}
+        - {x: -105.64813, y: -166.57436}
+        - {x: -66.64813, y: -197.57436}
+        - {x: -33.648132, y: -197.57436}
+        - {x: -30.648132, y: -190.57436}
+        - {x: 11.351868, y: -197.57436}
+        - {x: 36.351868, y: -197.57436}
+        - {x: 68.35187, y: -193.57436}
+        - {x: 69.35187, y: -191.57436}
+        - {x: 69.35187, y: 204.42564}
+    - name: Vampiro_1
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 116
+        width: 441
+        height: 1044
+      alignment: 9
+      pivot: {x: 0.6104944, y: 0.49640968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71.47937, y: 160.98622}
+        - {x: -103.47937, y: -103.01378}
+        - {x: -103.47937, y: -170.01378}
+        - {x: -91.47937, y: -175.01378}
+        - {x: -71.47937, y: -171.01378}
+        - {x: -46.47937, y: -96.01378}
+        - {x: -43.47937, y: -52.01378}
+        - {x: -48.47937, y: -148.01378}
+        - {x: -25.47937, y: -199.01378}
+        - {x: 44.52063, y: -199.01378}
+        - {x: 66.52063, y: -193.01378}
+        - {x: 66.52063, y: 202.98622}
+        - {x: -48.47937, y: 202.98622}
+        - {x: -52.47937, y: 196.98622}
+    - name: Vampiro_2
+      rect:
+        serializedVersion: 2
+        x: 3329
+        y: 113
+        width: 524
+        height: 1047
+      alignment: 9
+      pivot: {x: 0.66452515, y: 0.4928398}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.3087158, y: -137.22636}
+        - {x: 3.3087158, y: -131.22636}
+        - {x: 5.308716, y: -123.226364}
+        - {x: 6.308716, y: -116.226364}
+        - {x: 7.308716, y: -115.226364}
+        - {x: 4.308716, y: -128.22636}
+        - {x: -0.6912842, y: -150.22636}
+        - {x: -7.691284, y: -162.22636}
+        - {x: -4.691284, y: -176.22636}
+        - {x: 40.308716, y: -198.22636}
+        - {x: 53.308716, y: -198.22636}
+        - {x: 68.308716, y: -49.226364}
+        - {x: 68.308716, y: 168.77364}
+        - {x: 29.308716, y: 204.77364}
+        - {x: -70.691284, y: 204.77364}
+        - {x: -133.69128, y: 14.773636}
+        - {x: -133.69128, y: -198.22636}
+        - {x: 11.308716, y: -198.22636}
+        - {x: 2.3087158, y: -183.22636}
+        - {x: -12.691284, y: -170.22636}
+        - {x: -4.691284, y: -152.22636}
+    - name: Vampiro_3
+      rect:
+        serializedVersion: 2
+        x: 4123
+        y: 111
+        width: 503
+        height: 1049
+      alignment: 9
+      pivot: {x: 0.5223561, y: 0.49999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67.98743, y: 202.6267}
+        - {x: -100.98743, y: 23.626694}
+        - {x: -100.98743, y: -177.3733}
+        - {x: -68.98743, y: -172.3733}
+        - {x: -41.987427, y: -84.37331}
+        - {x: -40.987427, y: -61.373306}
+        - {x: -26.987427, y: -48.373306}
+        - {x: -57.987427, y: -176.3733}
+        - {x: -88.98743, y: -201.3733}
+        - {x: 71.01257, y: -201.3733}
+        - {x: 93.01257, y: -173.3733}
+        - {x: 93.01257, y: 96.62669}
+        - {x: 67.01257, y: 202.6267}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

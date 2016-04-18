@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: 3a02ebbd5ee8f36499eaac9407c125fa
+timeCreated: 1461007096
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Aldeana_0
+    21300002: Aldeana_1
+    21300004: Aldeana_2
+    21300006: Aldeana_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Aldeana_0
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 189
+        width: 578
+        height: 1499
+      alignment: 9
+      pivot: {x: 0.69454914, y: 0.36247012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.812683, y: 226.24988}
+        - {x: -19.187317, y: 213.24988}
+        - {x: -3.187317, y: 353.24988}
+        - {x: -7.187317, y: 354.24988}
+        - {x: -10.187317, y: 353.24988}
+        - {x: -12.187317, y: 368.24988}
+        - {x: -93.18732, y: 368.24988}
+        - {x: -109.18732, y: 247.24988}
+        - {x: -88.18732, y: 222.24988}
+        - {x: -140.18732, y: 76.24988}
+        - {x: -154.18732, y: -84.75012}
+        - {x: -154.18732, y: -116.75012}
+        - {x: -148.18732, y: -132.75012}
+        - {x: -81.18732, y: 10.249878}
+        - {x: -68.18732, y: -19.750122}
+        - {x: -46.187317, y: -56.750122}
+        - {x: -98.18732, y: -185.75012}
+        - {x: -62.187317, y: -208.75012}
+        - {x: 54.812683, y: -208.75012}
+        - {x: 68.81268, y: -204.75012}
+        - {x: 68.81268, y: -72.75012}
+        - {x: 57.812683, y: 59.249878}
+        - {x: 68.81268, y: 70.24988}
+        - {x: 68.81268, y: 167.24988}
+    - name: Aldeana_1
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 186
+        width: 740
+        height: 1401
+      alignment: 9
+      pivot: {x: 0.7633951, y: 0.39833277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68.153564, y: -143.37277}
+        - {x: 68.153564, y: 151.62723}
+        - {x: 29.153564, y: 209.62723}
+        - {x: -43.846436, y: 199.62723}
+        - {x: -104.846436, y: 101.62723}
+        - {x: -119.846436, y: 324.62723}
+        - {x: -180.84644, y: 324.62723}
+        - {x: -180.84644, y: 316.62723}
+        - {x: -178.84644, y: 297.62723}
+        - {x: -191.84644, y: 316.62723}
+        - {x: -196.84644, y: 314.62723}
+        - {x: -216.84644, y: 314.62723}
+        - {x: -216.84644, y: 233.62723}
+        - {x: -202.84644, y: 170.62723}
+        - {x: -101.846436, y: -162.37277}
+        - {x: -78.846436, y: -214.37277}
+        - {x: -11.846436, y: -214.37277}
+        - {x: -9.846436, y: -208.37277}
+        - {x: 0.15356445, y: -214.37277}
+        - {x: 62.153564, y: -214.37277}
+    - name: Aldeana_2
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 189
+        width: 1068
+        height: 1062
+      alignment: 9
+      pivot: {x: 0.83692664, y: 0.535295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 67.656494, y: 150.68604}
+        - {x: 36.656494, y: 190.68604}
+        - {x: -27.343506, y: 190.68604}
+        - {x: -73.343506, y: 138.68604}
+        - {x: -45.343506, y: 46.686035}
+        - {x: -131.3435, y: 33.686035}
+        - {x: -205.3435, y: 81.686035}
+        - {x: -192.3435, y: 117.686035}
+        - {x: -283.3435, y: 190.68604}
+        - {x: -331.3435, y: 190.68604}
+        - {x: -343.3435, y: 146.68604}
+        - {x: -343.3435, y: 107.686035}
+        - {x: -258.3435, y: 51.686035}
+        - {x: -204.3435, y: 45.686035}
+        - {x: -126.343506, y: -61.313965}
+        - {x: -62.343506, y: -160.31396}
+        - {x: -88.343506, y: -206.31396}
+        - {x: -35.343506, y: -218.31396}
+        - {x: 45.656494, y: -218.31396}
+        - {x: 58.656494, y: -215.31396}
+        - {x: 60.656494, y: -87.313965}
+        - {x: 63.656494, y: 61.686035}
+        - {x: 67.656494, y: 84.686035}
+    - name: Aldeana_3
+      rect:
+        serializedVersion: 2
+        x: 3439
+        y: 186
+        width: 1174
+        height: 1065
+      alignment: 9
+      pivot: {x: 0.80650586, y: 0.5140782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 88.47217, y: -181.32932}
+        - {x: 88.47217, y: 12.670685}
+        - {x: 71.47217, y: 199.67068}
+        - {x: -43.527832, y: 199.67068}
+        - {x: -61.527832, y: 167.67068}
+        - {x: -70.52783, y: 123.670685}
+        - {x: -151.52783, y: 68.670685}
+        - {x: -363.52783, y: 113.670685}
+        - {x: -363.52783, y: 71.670685}
+        - {x: -346.52783, y: 55.670685}
+        - {x: -350.52783, y: 52.670685}
+        - {x: -329.52783, y: 38.670685}
+        - {x: -354.52783, y: 41.670685}
+        - {x: -355.52783, y: 37.670685}
+        - {x: -363.52783, y: 25.670685}
+        - {x: -363.52783, y: -4.329315}
+        - {x: -239.52783, y: -41.329315}
+        - {x: -123.52783, y: -104.329315}
+        - {x: -70.52783, y: -210.32932}
+        - {x: -19.527832, y: -210.32932}
+        - {x: -14.527832, y: -198.32932}
+        - {x: -3.527832, y: -210.32932}
+        - {x: 45.472168, y: -210.32932}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
