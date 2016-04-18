@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: eab8154c68a3b7444b431002a6bca048
+timeCreated: 1461007264
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Hombre Lobo_0
+    21300002: Hombre Lobo_1
+    21300004: Hombre Lobo_2
+    21300006: Hombre Lobo_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Hombre Lobo_0
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 184
+        width: 734
+        height: 1012
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.94461, y: 195.66042}
+        - {x: -140.94461, y: -13.339584}
+        - {x: -140.94461, y: -84.339584}
+        - {x: -123.94461, y: -90.339584}
+        - {x: -92.94461, y: -90.339584}
+        - {x: -69.94461, y: -87.339584}
+        - {x: -105.94461, y: -127.339584}
+        - {x: -90.94461, y: -194.33958}
+        - {x: 142.05539, y: -194.33958}
+        - {x: 142.05539, y: 177.66042}
+        - {x: 84.05539, y: 195.66042}
+    - name: Hombre Lobo_1
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 184
+        width: 797
+        height: 1012
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87.0119, y: -160.33958}
+        - {x: 47.0119, y: -78.339584}
+        - {x: 148.0119, y: -57.339584}
+        - {x: 154.0119, y: -53.339584}
+        - {x: 154.0119, y: -6.3395844}
+        - {x: 118.0119, y: 29.660416}
+        - {x: 47.0119, y: 33.660416}
+        - {x: 43.0119, y: 56.660416}
+        - {x: 37.0119, y: 65.660416}
+        - {x: 34.0119, y: 66.660416}
+        - {x: 33.0119, y: 66.660416}
+        - {x: 34.0119, y: 66.660416}
+        - {x: 38.0119, y: 65.660416}
+        - {x: 39.0119, y: 65.660416}
+        - {x: 45.0119, y: 58.660416}
+        - {x: 46.0119, y: 39.660416}
+        - {x: 80.0119, y: 49.660416}
+        - {x: 111.0119, y: 75.660416}
+        - {x: 63.0119, y: 195.66042}
+        - {x: -16.988098, y: 195.66042}
+        - {x: -152.9881, y: 32.660416}
+        - {x: -152.9881, y: -129.33958}
+        - {x: -90.9881, y: -194.33958}
+        - {x: -5.988098, y: -194.33958}
+        - {x: -6.988098, y: -180.33958}
+        - {x: 37.0119, y: -186.33958}
+        - {x: 90.0119, y: -177.33958}
+    - name: Hombre Lobo_2
+      rect:
+        serializedVersion: 2
+        x: 2974
+        y: 184
+        width: 802
+        height: 1012
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63.587402, y: -59.339584}
+        - {x: 60.587402, y: -54.339584}
+        - {x: 58.587402, y: -52.339584}
+        - {x: 54.587402, y: -53.339584}
+        - {x: 56.587402, y: -50.339584}
+        - {x: 61.587402, y: -53.339584}
+        - {x: 65.5874, y: -60.339584}
+        - {x: 91.5874, y: -41.339584}
+        - {x: 71.5874, y: -20.339584}
+        - {x: 134.5874, y: -25.339584}
+        - {x: 136.5874, y: -20.339584}
+        - {x: 136.5874, y: -16.339584}
+        - {x: 133.5874, y: -11.339584}
+        - {x: 146.5874, y: -21.339584}
+        - {x: 153.5874, y: -19.339584}
+        - {x: 153.5874, y: 14.660416}
+        - {x: 148.5874, y: 21.660416}
+        - {x: 100.5874, y: 12.660416}
+        - {x: 38.587402, y: 43.660416}
+        - {x: 38.587402, y: 56.660416}
+        - {x: 39.587402, y: 45.660416}
+        - {x: 58.587402, y: 36.660416}
+        - {x: 114.5874, y: 52.660416}
+        - {x: 73.5874, y: 195.66042}
+        - {x: -49.412598, y: 195.66042}
+        - {x: -154.4126, y: 96.660416}
+        - {x: -154.4126, y: -147.33958}
+        - {x: -98.4126, y: -194.33958}
+        - {x: -52.412598, y: -194.33958}
+        - {x: -48.412598, y: -187.33958}
+        - {x: -14.412598, y: -194.33958}
+        - {x: 73.5874, y: -194.33958}
+    - name: Hombre Lobo_3
+      rect:
+        serializedVersion: 2
+        x: 3944
+        y: 184
+        width: 793
+        height: 1012
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83.590576, y: 32.660416}
+        - {x: 35.590576, y: 43.660416}
+        - {x: 33.590576, y: 56.660416}
+        - {x: 26.590576, y: 65.660416}
+        - {x: 24.590576, y: 66.660416}
+        - {x: 28.590576, y: 65.660416}
+        - {x: 31.590576, y: 65.660416}
+        - {x: 34.590576, y: 54.660416}
+        - {x: 39.590576, y: 43.660416}
+        - {x: 47.590576, y: 41.660416}
+        - {x: 52.590576, y: 42.660416}
+        - {x: 71.590576, y: 50.660416}
+        - {x: 96.590576, y: 76.660416}
+        - {x: 74.590576, y: 127.660416}
+        - {x: 33.590576, y: 195.66042}
+        - {x: 23.590576, y: 195.66042}
+        - {x: 19.590576, y: 181.66042}
+        - {x: -25.409424, y: 186.66042}
+        - {x: -33.409424, y: 186.66042}
+        - {x: -152.40942, y: 101.660416}
+        - {x: -152.40942, y: -107.339584}
+        - {x: -127.409424, y: -194.33958}
+        - {x: 45.590576, y: -194.33958}
+        - {x: 85.590576, y: -176.33958}
+        - {x: 153.59058, y: 44.660416}
+        - {x: 153.59058, y: 89.660416}
+        - {x: 115.590576, y: 96.660416}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

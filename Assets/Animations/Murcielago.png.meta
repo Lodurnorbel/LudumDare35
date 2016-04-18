@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: c9a196d9f5c741747945a35128c9f64f
+timeCreated: 1461007342
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Murcielago_0
+    21300002: Murcielago_1
+    21300004: Murcielago_2
+    21300006: Murcielago_3
+    21300008: Murcielago_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Murcielago_0
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 126
+        width: 261
+        height: 175
+      alignment: 9
+      pivot: {x: 0.6290517, y: 0.2907925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.086296, y: 48.44664}
+        - {x: -31.086296, y: 48.44664}
+        - {x: -24.086296, y: 27.44664}
+        - {x: -19.086296, y: 23.44664}
+        - {x: -42.086296, y: 34.44664}
+        - {x: -63.086296, y: 37.44664}
+        - {x: -63.086296, y: 22.44664}
+        - {x: -30.086296, y: -19.55336}
+        - {x: 23.913704, y: -19.55336}
+        - {x: 37.913704, y: -5.55336}
+        - {x: 37.913704, y: 23.44664}
+        - {x: 20.913704, y: 42.44664}
+    - name: Murcielago_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 126
+        width: 278
+        height: 141
+      alignment: 9
+      pivot: {x: 0.66857034, y: 0.36497995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71.37607, y: 35.198006}
+        - {x: -71.37607, y: -0.8019943}
+        - {x: -36.37607, y: -19.801994}
+        - {x: 18.623932, y: -19.801994}
+        - {x: 36.62393, y: -7.8019943}
+        - {x: 36.62393, y: 35.198006}
+    - name: Murcielago_2
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 126
+        width: 226
+        height: 180
+      alignment: 9
+      pivot: {x: 0.5971982, y: 0.2559238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.81418, y: 52.25863}
+        - {x: -51.81418, y: 51.25863}
+        - {x: -51.81418, y: 37.25863}
+        - {x: -28.814178, y: -17.741371}
+        - {x: 22.185822, y: -17.741371}
+        - {x: 36.18582, y: -1.7413712}
+        - {x: 36.18582, y: 25.258629}
+        - {x: 11.185822, y: 52.25863}
+    - name: Murcielago_3
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 82
+        width: 266
+        height: 185
+      alignment: 9
+      pivot: {x: 0.6871861, y: 0.50791603}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.736053, y: -11.072418}
+        - {x: 9.736053, y: -13.072418}
+        - {x: 9.736053, y: -16.072418}
+        - {x: 12.736053, y: -17.072418}
+        - {x: 31.736053, y: -7.072418}
+        - {x: 32.736053, y: -3.0724182}
+        - {x: 32.736053, y: 26.927582}
+        - {x: 28.736053, y: 35.92758}
+        - {x: -10.263947, y: 35.92758}
+        - {x: -70.26395, y: -7.072418}
+        - {x: -70.26395, y: -36.07242}
+        - {x: -4.2639465, y: -36.07242}
+        - {x: 7.7360535, y: -13.072418}
+        - {x: 11.736053, y: -10.072418}
+        - {x: 9.736053, y: -6.072418}
+    - name: Murcielago_4
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 92
+        width: 287
+        height: 172
+      alignment: 9
+      pivot: {x: 0.7041054, y: 0.50000054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.3938, y: 24.83017}
+        - {x: 30.393799, y: 33.83017}
+        - {x: -28.606201, y: 33.83017}
+        - {x: -77.6062, y: 14.83017}
+        - {x: -77.6062, y: -16.16983}
+        - {x: -44.6062, y: -33.16983}
+        - {x: -31.606201, y: -33.16983}
+        - {x: -22.606201, y: -30.16983}
+        - {x: 13.393799, y: -21.16983}
+        - {x: 33.3938, y: -8.16983}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
