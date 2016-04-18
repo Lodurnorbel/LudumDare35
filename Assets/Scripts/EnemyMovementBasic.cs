@@ -7,10 +7,14 @@ public class EnemyMovementBasic : MonoBehaviour {
 
 	private Rigidbody2D rigidBody;
 	private int sense;
+    private SpriteRenderer s;
+    private bool flip;
 
 	void Start () {
 		rigidBody = GetComponent<Rigidbody2D> ();
 		sense = -1;
+        s = GetComponent<SpriteRenderer>();
+        flip = false;
 	}
 
 	void FixedUpdate () {
@@ -21,5 +25,7 @@ public class EnemyMovementBasic : MonoBehaviour {
 
 	public void ChangeSense() {
 		sense *= -1;
+        flip = !flip;
+        s.flipX = flip;
 	}
 }

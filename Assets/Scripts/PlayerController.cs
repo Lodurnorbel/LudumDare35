@@ -9,11 +9,13 @@ public class PlayerController : MonoBehaviour {
 
 	private int currentCharacter;
 	private AudioSource audioSource;
+    private Animator animator; 
 
 	// Use this for initialization
 	void Start () {
 		audioSource = GetComponent<AudioSource> ();
 		changeCharacter (initialCharacter);
+
 		/*currentCharacter = initialCharacter;
 
 		audioSource.clip = spawnAudios [initialCharacter];
@@ -33,7 +35,6 @@ public class PlayerController : MonoBehaviour {
 		currentCharacter = character;
 		audioSource.clip = spawnAudios [character];
 		audioSource.Play ();
-		GetComponent<PlayerMovement> ().setCriature (character);
 	}
 
 	public void Die() {
