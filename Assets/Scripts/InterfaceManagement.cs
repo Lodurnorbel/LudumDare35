@@ -8,6 +8,8 @@ public class InterfaceManagement : MonoBehaviour {
     public GameObject player;
     public GameObject[] sprites;
     private PlayerHealth ph;
+	public Slider bloodSlider;
+	private Image bloodSliderFillArea;
     public bool showbar;
     public int blood;
 
@@ -28,6 +30,13 @@ public class InterfaceManagement : MonoBehaviour {
         sprites[0].GetComponent<UnityEngine.UI.Image>().color = Color.white;
         sprites[1].GetComponent<UnityEngine.UI.Image>().color = Color.black;
         sprites[2].GetComponent<UnityEngine.UI.Image>().color = Color.black;
+
+		foreach (Image i in bloodSlider.GetComponentsInChildren<Image>()) {
+			if (i.CompareTag("FillArea")) {
+				bloodSliderFillArea = i;
+			}
+		}
+		updateBloodSlider ();
     }
 	
 	// Update is called once per frame
@@ -59,6 +68,7 @@ public class InterfaceManagement : MonoBehaviour {
         if(blood == 100 & Input.GetKeyDown(KeyCode.K)){
             ph.ChangeHealthBy(10);
             blood = 0;
+			updateBloodSlider ();
         }
 
 	}
@@ -95,7 +105,20 @@ public class InterfaceManagement : MonoBehaviour {
     }
 
     public void drink(){
-        if(blood < 100) {blood += 10;}
+        if (blood < 100) {
+			blood += 10;
+		}
+		updateBloodSlider ();
+
     }
+
+	private void updateBloodSlider() {
+		bloodSlider.value = blood;
+		if (blood == 0) {
+			bloodSliderFillArea.enabled = false;
+		} else {
+			bloodSliderFillArea.enabled = true;
+		}
+	}
 
 }
