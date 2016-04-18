@@ -21,6 +21,11 @@ public class InterfaceManagement : MonoBehaviour {
         SceneManager.LoadScene("1");
     }
 
+    public void gameOver()
+    {
+        SceneManager.LoadScene("0");
+    }
+
     // Use this for initialization
     void Start () {
         pm = player.GetComponent<PlayerMovement>();
