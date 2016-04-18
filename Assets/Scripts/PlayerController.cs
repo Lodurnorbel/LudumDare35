@@ -4,12 +4,19 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
 
 	public int initialCharacter = 0;
+	public AudioClip[] spawnAudios;
 
 	private int currentCharacter;
+	private AudioSource audioSource;
 
 	// Use this for initialization
 	void Start () {
-		currentCharacter = initialCharacter;
+		audioSource = GetComponent<AudioSource> ();
+		changeCharacter (initialCharacter);
+		/*currentCharacter = initialCharacter;
+
+		audioSource.clip = spawnAudios [initialCharacter];
+		audioSource.Play ();*/
 	}
 	
 	// Update is called once per frame
@@ -23,6 +30,8 @@ public class PlayerController : MonoBehaviour {
 
 	public void changeCharacter(int character) {
 		currentCharacter = character;
+		audioSource.clip = spawnAudios [character];
+		audioSource.Play ();
 		GetComponent<PlayerMovement> ().setCriature (character);
 	}
 
