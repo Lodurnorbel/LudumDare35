@@ -42,6 +42,7 @@ public class PlayerController : MonoBehaviour {
 			coll.enabled = false;
 		}
 		GetComponent<PlayerMovement> ().enabled = false;
-		Destroy (this, 3.0f);
+        GameObject.FindGameObjectWithTag("gameover").SetActive(true);
+        Destroy (this, 3.0f);
 	}
 }
