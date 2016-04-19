@@ -9,13 +9,16 @@ public class PlayerController : MonoBehaviour {
 
 	private int currentCharacter;
 	private AudioSource audioSource;
-    private Animator animator; 
+    private Animator animator;
+
+	private GameObject gameOver;
 
 	// Use this for initialization
 	void Start () {
 		audioSource = GetComponent<AudioSource> ();
 		changeCharacter (initialCharacter);
-
+		gameOver = GameObject.FindGameObjectWithTag ("gameover");
+		gameOver.SetActive (false);
 		/*currentCharacter = initialCharacter;
 
 		audioSource.clip = spawnAudios [initialCharacter];
@@ -42,7 +45,14 @@ public class PlayerController : MonoBehaviour {
 			coll.enabled = false;
 		}
 		GetComponent<PlayerMovement> ().enabled = false;
-        GameObject.FindGameObjectWithTag("gameover").SetActive(true);
+		gameOver.SetActive (true);
+		Invoke ("GameOver", 3.0f);
         Destroy (this, 3.0f);
+
+
+	}
+
+	private void GameOver() {
+		InterfaceManagement.gameOver();
 	}
 }

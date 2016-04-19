@@ -18,12 +18,13 @@ public class InterfaceManagement : MonoBehaviour {
 
     public void buttonmenu()
     {
-        SceneManager.LoadScene("1");
+        SceneManager.LoadScene("Level");
     }
 
-    public void gameOver()
+    public static void gameOver()
     {
-        SceneManager.LoadScene("0");
+		Debug.Log ("Trying to main menu");
+        SceneManager.LoadScene("main menu");
     }
 
     // Use this for initialization
@@ -46,8 +47,8 @@ public class InterfaceManagement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        barDisplay = ph.currentHealth * 0.01f;
-        barDisplay2 = blood * 0.01f;
+        //barDisplay = ph.currentHealth * 0.01f;
+        //barDisplay2 = blood * 0.01f;
         GameObject.FindGameObjectWithTag("Score").GetComponent<Text>().text = "SCORE: " + GameObject.FindGameObjectWithTag("ScoreSystem").GetComponent<ScoreSystem>().getScore();
 
 
